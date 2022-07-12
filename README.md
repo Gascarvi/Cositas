@@ -1,2 +1,0 @@
-# Cositas
-Desarrollos varios
