@@ -3,7 +3,7 @@ date = "01/01/30" ' Introduce la fecha correcta
 x = Datediff("d" , Now, date) 'x es igual a los días que faltan.
 IF x <> 0 Then
  a = MsgBox("Faltan "&x&" dias para nuestro aniversario",48, "Mensajero del amor") ' Mensajero del amor es la cabecera del PopUp
-ELSE`
+ELSE
 'Podemos modificar los numeros dentro del MsgBox. Estos indican el tipo de icono que nos saldrá en el PopUp(Exclamación, Warning...)
  a = MsgBox("***MENSAJE***",16,"Mensajero del amor" )
  a = MsgBox("***MENSAJE***",32,"Mensajero del amor")
