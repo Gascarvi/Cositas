@@ -1,0 +1,28 @@
+var max = 100;
+var min = 1;
+
+var numero_secreto = Math.random();
+numero_secreto = parseInt(numero_secreto * (max-min) + min);
+
+console.log(numero_secreto);
+
+var mensaje = "Introduzca un número entre el 1 y el 100 o pulse 0 para salir"
+
+while(true){
+  var numero_user = prompt(mensaje,"0");
+  numero_user = parseInt(numero_user);
+  
+  if(numero_user === numero_secreto){
+    alert("Lo has acertado!!!!");
+    break;
+  }
+  else if(numero_user === 0){
+    break;
+  }
+  else if(numero_user > numero_secreto){
+    mensaje = "Lo siento. El número que ha ingresado es mayor"
+  }
+  else if(numero_user < numero_secreto){
+    mensaje = "Lo siento. El número que ha ingresado es menor"
+  }
+}
