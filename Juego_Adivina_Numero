@@ -4,7 +4,7 @@ var min = 1;
 var numero_secreto = Math.random();
 numero_secreto = parseInt(numero_secreto * (max-min) + min);
 
-console.log(numero_secreto);
+console.log(numero_secreto); //Si no disponemos de consola, comentamos esta línea
 
 var mensaje = "Introduzca un número entre el 1 y el 100 o pulse 0 para salir"
 
